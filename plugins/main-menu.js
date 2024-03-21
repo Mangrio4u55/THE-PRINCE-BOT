@@ -225,16 +225,16 @@ import {
   const time = moment.tz("Asia/Kolkata").format("HH")
   let res = "Good morning ☀️"
   if (time >= 4) {
-   res = "Good Morning 🤗🌄"
+   res = "Good Morning By Mangrio4u 🤗🌄"
   }
   if (time >= 10) {
-   res = "Good Afternoon ☀️"
+   res = "Good Afternoon By Mangrio4u ☀️"
   }
   if (time >= 15) {
-   res = "Good Afternoon 🌇"
+   res = "Good Afternoon By Mangrio4u 🌇"
   }
   if (time >= 18) {
-   res = "Good Night 🌙😴"
+   res = "Good Night By Mangrio4u 🌙😴"
   }
   return res
  }
